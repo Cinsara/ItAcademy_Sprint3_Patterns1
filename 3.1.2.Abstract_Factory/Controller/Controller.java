@@ -9,20 +9,6 @@ import org.example.Interfaces.AgendaAF;
 public class Controller {
     public static void start(){
 
-//        AgendaAF factorySpain = new AgendaSpain();
-//        Agenda agendaSpain = new Agenda(factorySpain);
-//        agendaSpain.addContact("645789123", "C/Susana 67");
-//
-//        AgendaAF factoryItaly = new AgendaItaly();
-//        Agenda agendaItaly = new Agenda(factoryItaly);
-//        agendaItaly.addContact("987654345", "C/Menestra 78");
-//
-//        AgendaAF factoryFrance = new AgendaFrance();
-//        Agenda agendaFrance = new Agenda(factoryFrance);
-//        agendaFrance.addContact("789098765", "C/Lalala 56");
-//
-//        System.out.println("\n------\n");
-
         AgendaAF[] agFactories = {new AgendaItaly(), new AgendaFrance(), new AgendaSpain()};
         Agenda[] agCountry = new Agenda[3];
         String[] numbers = {"987654345","789098765","645789123"};
